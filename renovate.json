@@ -10,7 +10,9 @@
       ],
       "description": "v prefix workaround for action updates",
       "extractVersion": "^(?<version>v\\d+\\.\\d+\\.\\d+)$",
+      "mine_extractVersion": "^(?<version>v?\\d+(?:\\.\\d+){0,2})$",
       "versioning": "regex:^v?(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$"
+      "mine_versioning": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$"
     }
   ]
 }
